@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context=".Adminpackages">
+    tools:context=".Adminpackage">
 
 
     <Button
@@ -15,8 +15,8 @@
         android:background="@android:color/background_dark"
         android:text="LOGOUT"
         android:textColor="@android:color/background_light"
-        tools:layout_editor_absoluteX="327dp"
-        tools:layout_editor_absoluteY="88dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <View
@@ -84,13 +84,14 @@
         android:id="@+id/p1"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginLeft="64dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="216dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:textColorHint="@android:color/black"
         app:layout_constraintStart_toEndOf="@+id/textView19"
-        tools:layout_editor_absoluteY="217dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/p2"

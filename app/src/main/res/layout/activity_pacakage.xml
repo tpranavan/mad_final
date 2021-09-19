@@ -17,19 +17,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logout" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="206dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="144dp"
-        android:layout_marginLeft="144dp"
-        android:text="OUR PACKAGES"
-        android:textColor="@android:color/primary_text_light_nodisable"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="126dp" />
-
     <Button
         android:id="@+id/log"
         android:layout_width="56dp"
@@ -37,22 +24,23 @@
         android:background="@android:color/background_dark"
         android:text="LOGOUT"
         android:textColor="@android:color/background_light"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        tools:layout_editor_absoluteX="333dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="214dp"
         android:layout_height="29dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="556dp"
         android:text="DAY OUT PACKAGE"
         android:textColor="@android:color/background_dark"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="167dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearLayout"

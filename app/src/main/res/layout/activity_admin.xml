@@ -23,7 +23,7 @@
 
         <androidx.cardview.widget.CardView
 
-            android:id="@+id/c1"
+            android:id="@+id/cc1"
             style="@style/Base.CardView"
             android:layout_width="160dp"
             android:layout_height="190dp"
@@ -217,8 +217,8 @@
         android:background="@android:color/background_dark"
         android:text="LOGOUT"
         android:textColor="@android:color/background_light"
-        tools:layout_editor_absoluteX="327dp"
-        tools:layout_editor_absoluteY="88dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 
