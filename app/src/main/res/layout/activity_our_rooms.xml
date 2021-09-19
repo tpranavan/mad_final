@@ -8,68 +8,18 @@
     tools:context=".our_rooms">
 
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="73dp"
-        android:layout_height="81dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hhhh" />
-
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="180dp"
-        android:layout_height="29dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="44dp"
-        android:text="HOTEL VADALI"
-        android:textColor="@android:color/background_dark"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/divider"
-        android:layout_width="409dp"
-        android:layout_height="10dp"
-        android:layout_marginTop="112dp"
-        android:background="@android:color/background_dark"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="206dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="144dp"
-        android:layout_marginLeft="144dp"
-        android:layout_marginTop="4dp"
-        android:text="OUR ROOMS "
-        android:textColor="@android:color/primary_text_light_nodisable"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider" />
-
     <TextView
         android:id="@+id/textView4"
         android:layout_width="172dp"
         android:layout_height="33dp"
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
-        android:layout_marginTop="36dp"
         android:text="Deluxe Room"
         android:textColor="@android:color/background_dark"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider" />
+        tools:layout_editor_absoluteY="158dp" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -200,12 +150,8 @@
         android:id="@+id/imageView4"
         android:layout_width="96dp"
         android:layout_height="58dp"
-        android:layout_marginStart="9dp"
-        android:layout_marginLeft="9dp"
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logout" />
 
@@ -213,13 +159,11 @@
         android:id="@+id/log"
         android:layout_width="70dp"
         android:layout_height="32dp"
-        android:layout_marginStart="250dp"
-        android:layout_marginLeft="250dp"
         android:background="@android:color/background_dark"
         android:text="LOGOUT"
         android:textColor="@android:color/background_light"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        tools:layout_editor_absoluteX="331dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
