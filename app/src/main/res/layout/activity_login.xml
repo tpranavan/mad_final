@@ -11,78 +11,74 @@
         android:id="@+id/imageView"
         android:layout_width="291dp"
         android:layout_height="295dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginRight="60dp"
         android:layout_marginBottom="332dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/ic_login" />
 
     <EditText
         android:id="@+id/l1"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:layout_marginLeft="68dp"
-        android:layout_marginTop="368dp"
+        android:layout_marginBottom="264dp"
         android:ems="10"
         android:hint="Enter the E_mail Address"
         android:inputType="textPersonName"
-        android:textColor="@android:color/background_dark"
 
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/l2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:layout_marginLeft="68dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginBottom="184dp"
         android:ems="10"
         android:hint="Enter Your Password"
         android:inputType="textPassword"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/l1" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/search"
         android:layout_width="133dp"
         android:layout_height="39dp"
-        android:layout_marginStart="152dp"
-        android:layout_marginLeft="152dp"
         android:layout_marginBottom="120dp"
         android:background="@color/teal_200"
         android:text="LOGIN"
         android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/reg"
         android:layout_width="133dp"
         android:layout_height="39dp"
-        android:layout_marginStart="152dp"
-        android:layout_marginLeft="152dp"
-        android:layout_marginTop="104dp"
+        android:layout_marginBottom="32dp"
         android:background="@color/teal_200"
         android:text="REGISTER"
         android:textColor="@android:color/background_light"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/l2" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="124dp"
-        android:layout_marginRight="124dp"
-        android:layout_marginBottom="88dp"
+        android:layout_marginBottom="80dp"
         android:text="click here to register"
         android:textSize="15dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
