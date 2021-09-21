@@ -183,13 +183,13 @@ public class booking extends AppCompatActivity {
 
                         StringBuffer buffer = new StringBuffer();
                         while (res.moveToNext()) {
-                            buffer.append("Room Type :" + res.getString(0) + "\n");
+                            buffer.append("Car Type :" + res.getString(0) + "\n");
                             buffer.append("Name :" + res.getString(1) + "\n");
                             buffer.append("Phone No :" + res.getString(2) + "\n");
                             buffer.append("Email :" + res.getString(3) + "\n");
                             buffer.append("Check In :" + res.getString(4) + "\n");
                             buffer.append("Check Out :" + res.getString(5) + "\n");
-                            buffer.append("No of Rooms :" + res.getString(6) + "\n");
+                            buffer.append("No of Cars :" + res.getString(6) + "\n");
                             buffer.append("Total cost :" + res.getString(7) + "\n\n");
 
                         }
