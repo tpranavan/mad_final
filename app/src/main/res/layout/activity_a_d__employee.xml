@@ -11,13 +11,13 @@
         android:id="@+id/log"
         android:layout_width="70dp"
         android:layout_height="32dp"
-        android:layout_marginStart="265dp"
-        android:layout_marginLeft="265dp"
-        android:background="@android:color/background_dark"
+        android:layout_marginStart="272dp"
+        android:layout_marginLeft="272dp"
+        android:background="@color/navbar2"
         android:text="LOGOUT"
         android:textColor="@android:color/background_light"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        tools:layout_editor_absoluteY="16dp" />
 
     <View
         android:id="@+id/divider"
@@ -68,16 +68,6 @@
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="104dp"
-        android:layout_height="69dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logout" />
-
 
     <TextView
         android:id="@+id/textView3"
@@ -112,7 +102,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="12dp"
-        android:background="@android:color/holo_blue_dark"
+        android:background="@color/navbar2"
         android:text="VIEW"
         android:textColor="@android:color/white"
         app:layout_constraintStart_toEndOf="@+id/btn2"
@@ -125,7 +115,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="12dp"
-        android:background="@android:color/holo_blue_dark"
+        android:background="@color/navbar2"
         android:text="DELETE"
         android:textColor="@android:color/white"
         app:layout_constraintStart_toEndOf="@+id/btn3"
@@ -138,7 +128,7 @@
         android:layout_marginStart="84dp"
         android:layout_marginLeft="84dp"
         android:layout_marginTop="12dp"
-        android:background="@android:color/holo_blue_dark"
+        android:background="@color/navbar2"
         android:text="SEARCH"
         android:textColor="@android:color/white"
         app:layout_constraintStart_toEndOf="@+id/btn3"
@@ -151,7 +141,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginLeft="12dp"
         android:layout_marginTop="12dp"
-        android:background="@android:color/holo_blue_dark"
+        android:background="@color/navbar2"
         android:text="EDIT"
         android:textColor="@android:color/white"
         app:layout_constraintStart_toEndOf="@+id/btn1"
@@ -164,7 +154,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="12dp"
-        android:background="@android:color/holo_blue_dark"
+        android:background="@color/navbar2"
         android:text="INSERT"
         android:textColor="@android:color/white"
         app:layout_constraintStart_toStartOf="parent"
@@ -321,8 +311,8 @@
 
     <Spinner
         android:id="@+id/spinner1"
-        android:layout_width="50dp"
-        android:layout_height="40dp"
+        android:layout_width="58dp"
+        android:layout_height="53dp"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
