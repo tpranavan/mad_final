@@ -110,7 +110,7 @@ public class AD_Employee extends AppCompatActivity {
             };
 
 
-
+   //delete code
     public void DeleteDetail() {
         b4.setOnClickListener(
                 new View.OnClickListener() {
@@ -129,7 +129,7 @@ public class AD_Employee extends AppCompatActivity {
         );
     }
 
-
+ //update code
     public void UpdateDetail() {
         b3.setOnClickListener(
                 new View.OnClickListener() {
