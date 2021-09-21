@@ -58,14 +58,7 @@ public class Home extends AppCompatActivity {
             }
         });
 
-        b5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent logout=new Intent(Home.this,todo.class);
-                Toast.makeText(getApplicationContext(),"LOGOUT",Toast.LENGTH_SHORT).show();
-                startActivity(logout);
-            }
-        });
+
 
 
     }
