@@ -51,7 +51,7 @@ public class booking extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_booking);
         mydB = new DBHelper(this);
-        cButton = findViewById(R.id.button);
+        cButton = findViewById(R.id.fb1);
         btnView = findViewById(R.id.view);
         btnUpdate = findViewById(R.id.update);
         btnlogout = findViewById(R.id.logout);

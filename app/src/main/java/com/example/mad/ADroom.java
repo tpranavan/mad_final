@@ -43,10 +43,10 @@ public class ADroom extends AppCompatActivity {
         v3 = findViewById(R.id.room);
         v4 = findViewById(R.id.cost);
         v5 = findViewById(R.id.fac);
-        btn = findViewById(R.id.button);
+        btn = findViewById(R.id.fb1);
         view = findViewById(R.id.button7 );
         update = findViewById(R.id.button4);
-        delete = findViewById(R.id.button3);
+        delete = findViewById(R.id.fb2);
         search = findViewById(R.id.search);
         log=findViewById(R.id.log);
         AddData();
