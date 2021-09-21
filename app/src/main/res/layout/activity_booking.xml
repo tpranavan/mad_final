@@ -20,13 +20,14 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/check_in"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/roomNumber"
-        android:layout_width="150dp"
+        android:layout_width="130dp"
         android:layout_height="40dp"
-        android:layout_marginBottom="180dp"
+        android:layout_marginBottom="164dp"
         android:ems="10"
         android:hint="No Of Cars"
         android:inputType="number"
@@ -35,28 +36,29 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent" />
+
 
     <EditText
         android:id="@+id/personName"
         android:layout_width="202dp"
         android:layout_height="40dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="28dp"
         android:ems="10"
         android:hint="Enter Your Name"
         android:inputType="textPersonName"
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/type" />
 
-
     <Button
         android:id="@+id/search"
-        android:layout_width="45dp"
-        android:layout_height="35dp"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
         android:layout_marginEnd="92dp"
         android:layout_marginRight="92dp"
         android:layout_marginBottom="220dp"
@@ -79,34 +81,40 @@
         android:id="@+id/check_in"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="280dp"
+        android:layout_marginBottom="292dp"
         android:text="Check_in "
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/check_out"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="236dp"
         android:text="Check_out"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="402dp" />
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/view"
         android:layout_width="70dp"
         android:layout_height="45dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
         android:background="@color/teal_200"
         android:text="VIEW"
         android:textColor="@android:color/background_light"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="597dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/update" />
 
     <Button
         android:id="@+id/delete"
@@ -151,25 +159,26 @@
         android:id="@+id/phoneNo"
         android:layout_width="182dp"
         android:layout_height="38dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="Phone Number"
         android:inputType="phone"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/personName" />
 
     <EditText
         android:id="@+id/type"
-        android:layout_width="202dp"
+        android:layout_width="100dp"
         android:layout_height="40dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="112dp"
         android:ems="10"
         android:hint="Car Type"
         android:inputType="textPersonName"
         android:textColorHint="@color/cardview_dark_background"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -188,17 +197,20 @@
         android:id="@+id/spinner1"
         android:layout_width="68dp"
         android:layout_height="45dp"
-        android:layout_marginEnd="84dp"
-        android:layout_marginRight="84dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:layout_marginBottom="68dp"
         android:dropDownSelector="@color/colorPrimaryDark"
-        app:layout_constraintBottom_toBottomOf="@+id/type"
-        app:layout_constraintEnd_toEndOf="@+id/type" />
+        app:layout_constraintBottom_toBottomOf="@+id/personName"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Spinner
         android:id="@+id/spinner2"
-        android:layout_width="55dp"
-        android:layout_height="33dp"
-        android:layout_marginBottom="4dp"
+        android:layout_width="53dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="8dp"
         android:dropDownSelector="@color/colorPrimaryDark"
         app:layout_constraintBottom_toBottomOf="@+id/roomNumber"
         app:layout_constraintEnd_toEndOf="@+id/roomNumber" />

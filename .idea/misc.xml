@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/drawable/file.xml" value="0.125" />
+        <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/drawable/ic_a1.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/drawable/ic_add.xml" value="0.125" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/drawable/ic_baseline_add_location_alt_24.xml" value="0.125" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/drawable/ic_baseline_support_agent_24.xml" value="0.1" />
@@ -14,7 +15,7 @@
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_admin.xml" value="0.22" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_admin_booking.xml" value="0.1296875" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_adminpackage.xml" value="0.13020833333333334" />
-        <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_booking.xml" value="0.22" />
+        <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_booking.xml" value="0.2" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_home.xml" value="0.22" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_main.xml" value="0.25" />
