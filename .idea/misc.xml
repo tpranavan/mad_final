@@ -3,25 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/User/AndroidStudioProjects/mad_final/app/src/main/res/drawable/ic_bo.xml" value="0.2203125" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_a_d__employee.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_admin_booking.xml" value="0.2" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_adminpackage.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_booking.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_our_rooms.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_pacakage.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_user.xml" value="0.2" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_welcome.xml" value="0.2" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/mad_final/app/src/main/res/layout/shample.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/drawable/file.xml" value="0.125" />
-        <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/drawable/ic_a1.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/drawable/ic_add.xml" value="0.125" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/drawable/ic_baseline_add_location_alt_24.xml" value="0.125" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/drawable/ic_baseline_support_agent_24.xml" value="0.1" />
-        <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/drawable/ic_call3.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/drawable/ic_cove.xml" value="0.14583333333333334" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/drawable/ic_pac.xml" value="0.14583333333333334" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_a_d__employee.xml" value="0.15416666666666667" />
@@ -29,8 +14,7 @@
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_admin.xml" value="0.22" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_admin_booking.xml" value="0.1296875" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_adminpackage.xml" value="0.13020833333333334" />
-        <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_agent.xml" value="0.1716485507246377" />
-        <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_booking.xml" value="0.2" />
+        <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_booking.xml" value="0.22" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_home.xml" value="0.22" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_main.xml" value="0.25" />
@@ -38,8 +22,6 @@
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_pacakage.xml" value="0.15625" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_user.xml" value="0.17572463768115942" />
         <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_welcome.xml" value="0.15625" />
-        <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.10364583333333334" />
-        <entry key="..\:/Users/User/Desktop/MAD_final-grey-matters--G.25_GrayMatters/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.10364583333333334" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_a_d__employee.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_a_droom.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_admin.xml" value="0.25416666666666665" />
@@ -53,7 +35,17 @@
         <entry key="..\:/Users/acer/AndroidStudioProjects/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_pacakage.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/MAD_final-grey-matters--G.25_GrayMatters/app/src/main/res/layout/activity_welcome.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_a_d__employee.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_a_droom.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_admin_booking.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_adminpackage.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_our_rooms.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_pacakage.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_todo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/mad_final/app/src/main/res/layout/activity_welcome.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
