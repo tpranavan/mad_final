@@ -110,7 +110,7 @@ public class AD_Employee extends AppCompatActivity {
             };
 
 
- //new
+ //Delete Details
     public void DeleteDetail() {
         b4.setOnClickListener(
                 new View.OnClickListener() {

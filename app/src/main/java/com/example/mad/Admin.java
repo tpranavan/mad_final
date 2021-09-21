@@ -32,6 +32,7 @@ public class Admin extends AppCompatActivity {
 
             }
         } );
+        //logout
 
         logout.setOnClickListener( new View.OnClickListener() {
             @Override
