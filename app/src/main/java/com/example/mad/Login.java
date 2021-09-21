@@ -66,7 +66,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent reg=new Intent(Login.this,MainActivity.class);
-                Toast.makeText(getApplicationContext(),"VADALI REGISTRATION",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"WHEELSUP REGISTRATION",Toast.LENGTH_SHORT).show();
                 startActivity(reg);
             }
         });

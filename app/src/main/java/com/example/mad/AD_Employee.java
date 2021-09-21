@@ -110,7 +110,7 @@ public class AD_Employee extends AppCompatActivity {
             };
 
 
- //Delete Details
+    //Delete Details
     public void DeleteDetail() {
         b4.setOnClickListener(
                 new View.OnClickListener() {
@@ -129,7 +129,7 @@ public class AD_Employee extends AppCompatActivity {
         );
     }
 
- //update code
+    //update code
     public void UpdateDetail() {
         b3.setOnClickListener(
                 new View.OnClickListener() {
@@ -198,7 +198,7 @@ public class AD_Employee extends AppCompatActivity {
                             buffer.append("Salary :" + res.getString(6) + "\n\n");
 
                         }
-                        showMessage("Rooms Details", buffer.toString());
+                        showMessage("Employee Details", buffer.toString());
 
                     }
                 }
@@ -229,9 +229,9 @@ public class AD_Employee extends AppCompatActivity {
                     m2.setText( data.getString(1));
                     m3.setText( data.getString(2));
                     m4.setText( data.getString(3));
-                    m5.setText( data.getString(3));
-                    m6.setText( data.getString(3));
-                    m7.setText( data.getString(3));
+                    m5.setText( data.getString(4));
+                    m6.setText( data.getString(5));
+                    m7.setText( data.getString(6));
 
 
                 }
@@ -257,3 +257,4 @@ public class AD_Employee extends AppCompatActivity {
 
 
 }
+

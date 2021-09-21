@@ -4,70 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/abcd"
+    android:background="@color/home"
     tools:context=".AD_Employee">
+
 
     <Button
         android:id="@+id/log"
         android:layout_width="70dp"
         android:layout_height="32dp"
-        android:layout_marginStart="272dp"
-        android:layout_marginLeft="272dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:background="@color/navbar2"
         android:text="LOGOUT"
         android:textColor="@android:color/background_light"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <View
-        android:id="@+id/divider"
-        android:layout_width="409dp"
-        android:layout_height="10dp"
-        android:layout_marginTop="124dp"
-        android:background="@android:color/background_dark"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView23"
         android:layout_width="273dp"
         android:layout_height="36dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="7dp"
+        android:layout_marginTop="12dp"
         android:text="Employee Management"
         android:textColor="@android:color/background_dark"
         android:textSize="24sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider" />
-
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="54dp"
-        android:layout_height="92dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="406dp"
+        android:layout_height="129dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hhhh" />
-
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="210dp"
-        android:layout_height="29dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="76dp"
-        android:text="WHEELS UP"
-        android:textColor="@color/navbar2"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="@drawable/ic_a3" />
 
     <TextView
         android:id="@+id/textView3"
@@ -88,7 +64,7 @@
         android:layout_height="40dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         android:text="@string/AA3"
         android:textColor="#000000"
         android:textSize="18sp"
@@ -229,9 +205,9 @@
         android:id="@+id/emp1"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintStart_toEndOf="@+id/textView4"

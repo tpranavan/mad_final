@@ -39,7 +39,7 @@ public class DB_Employee extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME);
         onCreate(sqLiteDatabase);
 
-    }
+    }//insert Employee Data
     public boolean insertData(String EmployeeID, String Name, String Address, String TelephoneNo,String EmailAddress, String WorkingPosition, String Salary) {
 
         SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
@@ -63,7 +63,7 @@ public class DB_Employee extends SQLiteOpenHelper {
         SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
         Cursor res=sqLiteDatabase.rawQuery("select * from "+TABLE_NAME,null);
         return res;
-    }
+    }//update Employee Data
     public  boolean updateDetail(String EmployeeID, String Name, String Address, String TelephoneNo,String EmailAddress, String WorkingPosition, String Salary){
         SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
         ContentValues contentValues= new ContentValues();
@@ -76,11 +76,11 @@ public class DB_Employee extends SQLiteOpenHelper {
 
         sqLiteDatabase.update(TABLE_NAME,contentValues,"EmployeeID = ?",new String[] {EmployeeID});
         return true;
-    }
+    }//Delete Employee Data
     public Integer deleteDetail (String EmployeeID){
         SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
         return sqLiteDatabase.delete(TABLE_NAME,"EmployeeID = ?",new String[] {EmployeeID});
-    }
+    }//Search Employee Data
     public Cursor searchData(String EmployeeID) {
         SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
         Cursor data = sqLiteDatabase.rawQuery("SELECT * FROM " + TABLE_NAME + " WHERE " + COL_1 + "= '" + EmployeeID + "'",null);
