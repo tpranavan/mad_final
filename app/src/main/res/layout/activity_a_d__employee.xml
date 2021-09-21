@@ -61,7 +61,7 @@
         android:layout_marginStart="45dp"
         android:layout_marginLeft="45dp"
         android:layout_marginTop="44dp"
-        android:text="HOTEL VADALI"
+        android:text="WHEELS UP"
         android:textColor="@android:color/background_dark"
         android:textSize="24sp"
         android:textStyle="bold"
