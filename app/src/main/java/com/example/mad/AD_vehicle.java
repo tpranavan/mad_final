@@ -150,7 +150,7 @@ public class AD_vehicle extends AppCompatActivity {
                             Toast.makeText( AD_vehicle.this, "Data Inserted", Toast.LENGTH_LONG ).show();
 
                         }else
-                            Toast.makeText(AD_vehicle.this,"Data Not Inserted",Toast.LENGTH_LONG).show();
+                            Toast.makeText(AD_vehicle.this,"Data not Inserted",Toast.LENGTH_LONG).show();
 
                     }
                 }
