@@ -85,7 +85,7 @@
         android:id="@+id/wheelup"
         android:layout_width="213dp"
         android:layout_height="61dp"
-        android:text="@string/wheelup"
+
         android:textColor="#37938A"
         android:textColorHighlight="#408334"
         android:textColorHint="#FFFFFF"
