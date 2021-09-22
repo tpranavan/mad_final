@@ -10,27 +10,41 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="328dp"
-        android:layout_height="146dp"
-        android:layout_marginBottom="548dp"
+        android:layout_width="319dp"
+        android:layout_height="148dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.402"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.031"
         app:srcCompat="@drawable/ic_int2" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="241dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="24dp"
+        android:text="WHEELSUP ADMIN"
+        android:textColor="@color/navbar2"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/ll1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="24dp"
         android:clipToPadding="false"
         android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
         tools:ignore="MissingConstraints">
 
         <androidx.cardview.widget.CardView
@@ -240,8 +254,10 @@
         android:id="@+id/log"
         android:layout_width="83dp"
         android:layout_height="36dp"
-        android:layout_marginTop="124dp"
-        android:background="@color/teal_200"
+        android:layout_marginStart="324dp"
+        android:layout_marginLeft="324dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/navbar2"
         android:text="LOGOUT"
         android:textColor="@android:color/background_light"
         app:layout_constraintStart_toStartOf="parent"
