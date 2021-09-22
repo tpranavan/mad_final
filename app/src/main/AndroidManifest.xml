@@ -8,7 +8,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity
+            android:name=".event"
+            android:exported="true" />
         <activity
             android:name=".feedback"
             android:exported="true" />
@@ -18,7 +20,6 @@
         <activity
             android:name=".user"
             android:exported="true" />
-        //dd55//
         <activity android:name=".Welcome" />
         <activity android:name=".pacakage" />
         <activity android:name=".our_rooms" />

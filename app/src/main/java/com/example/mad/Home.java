@@ -59,6 +59,16 @@ public class Home extends AppCompatActivity {
         });
 
 
+        b5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(Home.this,event.class);
+                startActivity(i);
+            }
+        });
+
+
+
 
 
     }
