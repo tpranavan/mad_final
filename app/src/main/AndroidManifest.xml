@@ -17,6 +17,7 @@
         <activity
             android:name=".user"
             android:exported="true" />
+        //dd
         <activity android:name=".Welcome" />
         <activity android:name=".pacakage" />
         <activity android:name=".our_rooms" />
