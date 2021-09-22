@@ -9,9 +9,9 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="291dp"
-        android:layout_height="295dp"
-        android:layout_marginBottom="332dp"
+        android:layout_width="168dp"
+        android:layout_height="194dp"
+        android:layout_marginBottom="320dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -80,5 +80,18 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/wheelup"
+        android:layout_width="213dp"
+        android:layout_height="61dp"
+        android:text="@string/wheelup"
+        android:textColor="#37938A"
+        android:textColorHighlight="#408334"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="49dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

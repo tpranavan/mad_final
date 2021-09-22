@@ -46,5 +46,7 @@
     <string name="invalid_checkout">Enter the Checkout</string>
     <string name="invalid_roomno">Enter the No of Rooms</string>
     <string name="logintext">If you\'re already registered click here to login</string>
+    <string name="wheels">WHEELS UP</string>
+    <string name="wheelup">WHEELS UP</string>
 
 </resources>
