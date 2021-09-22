@@ -19,7 +19,7 @@
         <activity android:name=".our_rooms" />
         <activity android:name=".booking" />
         <activity android:name=".Admin_booking" />
-        <activity android:name=".ADroom" />
+        <activity android:name=".AD_vehicle" />
         <activity android:name=".Admin" />
         <activity android:name=".Adminpackage" />
         <activity android:name=".AD_Employee" />

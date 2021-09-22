@@ -46,7 +46,7 @@ public class Admin extends AppCompatActivity {
         room.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent room = new Intent( Admin.this, ADroom.class );
+                Intent room = new Intent( Admin.this, AD_vehicle.class );
                 startActivity( room );
             }
         } );

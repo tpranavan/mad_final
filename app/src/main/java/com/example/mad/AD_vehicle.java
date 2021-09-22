@@ -21,8 +21,8 @@ import com.basgeekball.awesomevalidation.ValidationStyle;
 import com.basgeekball.awesomevalidation.utility.RegexTemplate;
 import com.google.common.collect.Range;
 
-public class ADroom extends AppCompatActivity {
-    DB_Rooms myDb;
+public class AD_vehicle extends AppCompatActivity {
+    DB_Vehicle myDb;
     EditText v1, v2, v3, v4, v5;
     Button btn,search;
     Button view;
@@ -31,16 +31,16 @@ public class ADroom extends AppCompatActivity {
     AwesomeValidation awesomeValidation;
     Button log;
     //Spinner
-    String[] RoomType = {"Deluxe Room", "Superior Room","Double Room","Single Room"};
+    String[] RoomType = {"Deluxe vehicle", "Superior vehicle"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_a_droom);
-        myDb=new DB_Rooms(this);
+        setContentView(R.layout.activity_a_dvehicle);
+        myDb=new DB_Vehicle(this);
         v1 = findViewById(R.id.id);
         v2 = findViewById(R.id.type);
-        v3 = findViewById(R.id.room);
+        v3 = findViewById(R.id.vehicle);
         v4 = findViewById(R.id.cost);
         v5 = findViewById(R.id.fac);
         btn = findViewById(R.id.fb1);
@@ -58,7 +58,7 @@ public class ADroom extends AppCompatActivity {
         log.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent logout =new Intent( ADroom.this,Admin.class );
+                Intent logout =new Intent( AD_vehicle.this,Admin.class );
                 Toast.makeText(getApplicationContext(),"LOGOUT",Toast.LENGTH_SHORT).show();
                 startActivity( logout );
             }
@@ -66,7 +66,7 @@ public class ADroom extends AppCompatActivity {
         awesomeValidation=new AwesomeValidation(ValidationStyle.BASIC);
         awesomeValidation.addValidation(this,R.id.id, RegexTemplate.NOT_EMPTY,R.string.invalid_id);
         awesomeValidation.addValidation(this,R.id.type, RegexTemplate.NOT_EMPTY,R.string.invalid_type);
-        awesomeValidation.addValidation(this,R.id.room,".{1}",R.string.invalid_noofrooms);
+        awesomeValidation.addValidation(this,R.id.vehicle,".{1}",R.string.invalid_noofrooms);
         awesomeValidation.addValidation(this,R.id.cost, Range.closed(5000,12000),R.string.invalid_roomcost);
         awesomeValidation.addValidation(this,R.id.fac, RegexTemplate.NOT_EMPTY,R.string.invalid_facilities);
 
@@ -113,10 +113,10 @@ public class ADroom extends AppCompatActivity {
                     public void onClick(View view) {
                         Integer deletedRows =myDb.deleteData(v1.getText().toString());
                         if(deletedRows >0) {
-                            Toast.makeText( ADroom.this, "Data deleted", Toast.LENGTH_LONG ).show();
+                            Toast.makeText( AD_vehicle.this, "Data deleted", Toast.LENGTH_LONG ).show();
                             clearControls();
                         }else
-                            Toast.makeText(ADroom.this,"Data Not deleted",Toast.LENGTH_LONG).show();
+                            Toast.makeText(AD_vehicle.this,"Data Not deleted",Toast.LENGTH_LONG).show();
 
                     }
                 }
@@ -130,10 +130,10 @@ public class ADroom extends AppCompatActivity {
 
                         boolean isUpdate = myDb.updateData(v1.getText().toString(), v2.getText().toString(), v3.getText().toString(), v4.getText().toString(), v5.getText().toString());
                         if (isUpdate == true &&awesomeValidation.validate()) {
-                            Toast.makeText( ADroom.this, "Data updated", Toast.LENGTH_LONG ).show();
+                            Toast.makeText( AD_vehicle.this, "Data updated", Toast.LENGTH_LONG ).show();
                             clearControls();
                         }else
-                            Toast.makeText(ADroom.this, "Data Not updated", Toast.LENGTH_LONG).show();
+                            Toast.makeText(AD_vehicle.this, "Data Not updated", Toast.LENGTH_LONG).show();
 
                     }
                 }
@@ -147,10 +147,10 @@ public class ADroom extends AppCompatActivity {
                         boolean isInserted = myDb.insertData(v1.getText().toString(),v2.getText().toString(),v3.getText().toString(),v4.getText().toString(),v5.getText().toString());
                         if(isInserted == true &&awesomeValidation.validate() ) {
                             clearControls();
-                            Toast.makeText( ADroom.this, "Data Inserted", Toast.LENGTH_LONG ).show();
+                            Toast.makeText( AD_vehicle.this, "Data Inserted", Toast.LENGTH_LONG ).show();
 
                         }else
-                            Toast.makeText(ADroom.this,"Data Not Inserted",Toast.LENGTH_LONG).show();
+                            Toast.makeText(AD_vehicle.this,"Data Not Inserted",Toast.LENGTH_LONG).show();
 
                     }
                 }
@@ -170,14 +170,14 @@ public class ADroom extends AppCompatActivity {
                         }
                         StringBuffer buffer =new StringBuffer();
                         while(res.moveToNext()){
-                            buffer.append("Room ID :"+res.getString(0)+"\n");
-                            buffer.append("Room Type :"+res.getString(1)+"\n");
-                            buffer.append("No Of Rooms :"+res.getString(2)+"\n");
-                            buffer.append("Room Cost:"+res.getString(3)+"\n");
-                            buffer.append("Room Facilities:"+res.getString(4)+"\n\n");
+                            buffer.append("Vehicle ID :"+res.getString(0)+"\n");
+                            buffer.append("Vehicle Type :"+res.getString(1)+"\n");
+                            buffer.append("No Of Vehicle :"+res.getString(2)+"\n");
+                            buffer.append("Vehicle Cost:"+res.getString(3)+"\n");
+                            buffer.append("Vehicle Facilities:"+res.getString(4)+"\n\n");
 
                         }
-                        showMessage("Rooms Details",buffer.toString());
+                        showMessage("Vehicle Details",buffer.toString());
 
                     }
                 }

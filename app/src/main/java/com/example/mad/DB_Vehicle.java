@@ -9,16 +9,16 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 
-public class DB_Rooms extends SQLiteOpenHelper {
-    public static final String DATABASE_NAME = "ROOM_maneger.db";
-    public static final String TABLE_NAME = "room";
+public class DB_Vehicle extends SQLiteOpenHelper {
+    public static final String DATABASE_NAME = "Vehicle_maneger.db";
+    public static final String TABLE_NAME = "Vehicle";
     public static final String COL_1 = "ID";
-    public static final String COL_2 = "RoomType";
-    public static final String COL_3 = "NoOfRooms";
-    public static final String COL_4 = "RoomCost";
-    public static final String COL_5 = "RoomFacilities";
+    public static final String COL_2 = "VehicleType";
+    public static final String COL_3 = "NoOfVehicle";
+    public static final String COL_4 = "VehicleCost";
+    public static final String COL_5 = "VehicleFacilities";
 
-    public DB_Rooms( Context context) {
+    public DB_Vehicle(Context context) {
         super(context, DATABASE_NAME, null, 1);
         SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
 
@@ -27,7 +27,7 @@ public class DB_Rooms extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-        sqLiteDatabase.execSQL("CREATE TABLE " + TABLE_NAME + "(ID INTEGER primary key ,RoomType text,NoOfRooms interger,RoomCost interger,RoomFacilities text)");
+        sqLiteDatabase.execSQL("CREATE TABLE " + TABLE_NAME + "(ID INTEGER primary key ,VehicleType text,NoOfVehicle interger,VehicleCost interger,VehicleFacilities text)");
 
     }
 
@@ -37,14 +37,14 @@ public class DB_Rooms extends SQLiteOpenHelper {
         onCreate(sqLiteDatabase);
 
     }
-    public boolean insertData(String ID, String RoomType, String NoOfRooms, String RoomCost, String RoomFacilities) {
+    public boolean insertData(String ID, String VehicleType, String NoOfVehicle, String VehicleCost, String VehicleFacilities) {
         SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put(COL_1, ID);
-        contentValues.put(COL_2, RoomType);
-        contentValues.put(COL_3, NoOfRooms);
-        contentValues.put(COL_4, RoomCost);
-        contentValues.put(COL_5, RoomFacilities);
+        contentValues.put(COL_2, VehicleType);
+        contentValues.put(COL_3, NoOfVehicle);
+        contentValues.put(COL_4, VehicleCost);
+        contentValues.put(COL_5, VehicleFacilities);
         long result = sqLiteDatabase.insert(TABLE_NAME, null, contentValues);
         if (result == -1)
             return false;
@@ -56,14 +56,14 @@ public class DB_Rooms extends SQLiteOpenHelper {
         Cursor res=sqLiteDatabase.rawQuery("select * from "+TABLE_NAME,null);
         return res;
     }
-    public  boolean updateData(String ID,String RoomType, String NoOfRooms, String RoomCost, String RoomFacilities){
+    public  boolean updateData(String ID,String VehicleType, String NoOfVehicle, String VehicleCost, String VehicleFacilities){
         SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
         ContentValues contentValues= new ContentValues();
 
-        contentValues.put(COL_2, RoomType);
-        contentValues.put(COL_3, NoOfRooms);
-        contentValues.put(COL_4, RoomCost);
-        contentValues.put(COL_5, RoomFacilities);
+        contentValues.put(COL_2, VehicleType);
+        contentValues.put(COL_3, NoOfVehicle);
+        contentValues.put(COL_4, VehicleCost);
+        contentValues.put(COL_5, VehicleFacilities);
         sqLiteDatabase.update(TABLE_NAME,contentValues,"ID = ?",new String[] {ID});
         return true;
     }
