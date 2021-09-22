@@ -4,102 +4,73 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="@color/navbar2"
     tools:context=".Welcome">
 
     <TextView
         android:id="@+id/textView28"
-        android:layout_width="243dp"
-        android:layout_height="65dp"
-        android:layout_marginStart="106dp"
-        android:layout_marginLeft="106dp"
-        android:layout_marginTop="50dp"
-        android:text="Hotel Vadali"
-        android:textColor="@color/cardview_light_background"
-        android:textSize="36sp"
+        android:layout_width="315dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="40dp"
+        android:text="WELCOME TO WHEELS UP"
+        android:textColor="@color/home"
+        android:textSize="40sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView30"
-        android:layout_width="75dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="180dp"
-        android:layout_marginLeft="180dp"
-        android:layout_marginTop="28dp"
-        android:text="VISIT "
-        android:textColor="@color/cardview_light_background"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView29" />
-
-    <TextView
-        android:id="@+id/textView31"
-        android:layout_width="131dp"
-        android:layout_height="62dp"
-        android:layout_marginStart="160dp"
-        android:layout_marginLeft="160dp"
-        android:layout_marginTop="3dp"
-        android:text="VADALI"
-        android:textColor="@color/cardview_light_background"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView30" />
 
     <TextView
         android:id="@+id/textView29"
         android:layout_width="245dp"
         android:layout_height="33dp"
-        android:layout_marginStart="113dp"
-        android:layout_marginLeft="113dp"
-        android:layout_marginTop="39dp"
-        android:text="Need a place to relax ?"
-        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="28dp"
+        android:text="Need a Vehicle to travel ?"
+        android:textColor="@color/home"
         android:textSize="18sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="352dp"
+        android:layout_height="281dp"
+        android:layout_marginTop="176dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_cover" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="101dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="180dp"
-        android:layout_marginLeft="180dp"
-        android:layout_marginTop="88dp"
-        android:background="@android:color/holo_red_light"
+        android:layout_height="40dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="61dp"
+        android:background="@color/home"
         android:text="Login"
-        android:textColor="@color/cardview_light_background"
+        android:textColor="#00796B"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+        app:layout_constraintTop_toTopOf="@+id/textView29"
+        tools:ignore="TouchTargetSizeCheck" />
 
-    <TextView
-        android:id="@+id/textView32"
-        android:layout_width="36dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="213dp"
-        android:layout_marginLeft="213dp"
-        android:layout_marginTop="15dp"
-        android:text="OR"
-        android:textColor="@color/cardview_light_background"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
-
-    <TextView
-        android:id="@+id/reg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="152dp"
-        android:layout_marginLeft="152dp"
-        android:layout_marginTop="28dp"
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="101dp"
+        android:layout_height="40dp"
+        android:background="@color/home"
         android:text="REGISTER"
-        android:textColor="@android:color/holo_orange_light"
-        android:textSize="30sp"
+        android:textColor="@color/navbar2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.79"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
