@@ -13,10 +13,10 @@
     <string name="B8">No of Rooms</string>
 
     <string name="invalid_id">Enter the Valid ID</string>
-    <string name="invalid_type">Fill  the Room Type</string>
-    <string name="invalid_noofrooms">Enter the  No_Of _Rooms</string>
-    <string name="invalid_roomcost">Enter the   Room cost</string>
-    <string name="invalid_facilities">Enter the Room facilities</string>
+    <string name="invalid_type">Fill  the Vehicle Type</string>
+    <string name="invalid_noofrooms">Enter the  No_Of _Vehicle</string>
+    <string name="invalid_roomcost">Enter the   Vehicle cost</string>
+    <string name="invalid_facilities">Enter the Vehicle facilities</string>
     <string name="invalid_name">Enter the Name</string>
     <string name="invalid_phone">Enter the phonr number</string>
     <string name="invalid_rooms">Enter the room</string>
@@ -46,7 +46,5 @@
     <string name="invalid_checkout">Enter the Checkout</string>
     <string name="invalid_roomno">Enter the No of Rooms</string>
     <string name="logintext">If you\'re already registered click here to login</string>
-    <string name="wheels">WHEELS UP</string>
-    <string name="wheelup">WHEELS UP</string>
 
 </resources>
