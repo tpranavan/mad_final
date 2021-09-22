@@ -44,12 +44,12 @@ public class Admin_booking extends AppCompatActivity {
                             buffer.append("Email :" + res.getString(3) + "\n");
                             buffer.append("Check In :" + res.getString(4) + "\n");
                             buffer.append("Check Out :" + res.getString(5) + "\n");
-                            buffer.append("No of Rooms :" + res.getString(6) + "\n");
+                            buffer.append("No of Vehicles :" + res.getString(6) + "\n");
                             buffer.append("Total Cost :" + res.getString(7) + "\n\n");
 
 
                         }
-                        showMessage("Rooms Details", buffer.toString());
+                        showMessage("Booking details", buffer.toString());
 
                     }
                 }
