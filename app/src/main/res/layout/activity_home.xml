@@ -36,7 +36,7 @@
             android:id="@+id/linearLayout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="268dp"
+            android:layout_marginTop="180dp"
             android:clipToPadding="false"
             android:gravity="center"
             android:orientation="horizontal"
@@ -241,14 +241,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
 
-            android:layout_marginTop="636dp"
+            android:layout_marginTop="648dp"
             android:clipToPadding="false"
             android:gravity="center"
 
             android:orientation="horizontal"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="0dp">
+            tools:layout_editor_absoluteX="16dp">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="160dp"
@@ -304,7 +304,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="#FFFFFF"
-                        android:text="COMPLAINT"
+                        android:text="CALL AGENT"
                         android:textColor="@color/teal_700"
                         android:textSize="20dp"
                         android:textStyle="bold"
