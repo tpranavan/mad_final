@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     android:background="@color/home"
     android:gravity="center"
-    android:onClick="onClick"
     android:orientation="vertical">
 
 
@@ -320,15 +319,13 @@
                     android:layout_width="164dp"
                     android:layout_height="186dp"
                     android:background="@color/white"
-                    android:gravity="center"
-                    android:onClick="onClick">
+                    android:gravity="center">
 
                     <Button
                         android:id="@+id/nb4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="#FFFFFF"
-                        android:onClick="onClick"
                         android:text="@string/Complaint"
                         android:textColor="@color/teal_700"
                         android:textSize="20dp"
