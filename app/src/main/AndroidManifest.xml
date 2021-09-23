@@ -9,9 +9,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".samplepush"
-            android:exported="true" />
-        <activity
             android:name=".event"
             android:exported="true" />
         <activity
