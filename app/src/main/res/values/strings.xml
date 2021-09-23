@@ -46,5 +46,10 @@
     <string name="invalid_checkout">Enter the Checkout</string>
     <string name="invalid_roomno">Enter the No of Rooms</string>
     <string name="logintext">If you\'re already registered click here to login</string>
+    <string name="head">Any Complaints?</string>
+    <string name="em">Let us know your complaints through email</string>
+    <string name="ail">wheelsup@gmail.com</string>
+    <string name="name">Name</string>
+    <string name="Complaint">Complaint</string>
 
 </resources>
