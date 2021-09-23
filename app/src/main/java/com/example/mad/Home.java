@@ -16,8 +16,8 @@ public class Home extends AppCompatActivity {
 //new
 
     Button b1,b2,b3;
-    Button b4,b5,b6,b7;
-
+    Button b4,b5,b6;
+    Button  b7;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,13 +77,14 @@ public class Home extends AppCompatActivity {
             }
         });
 
-      //  b6.setOnClickListener(new View.OnClickListener() {
-      //      @Override
-     //       public void onClick(View view) {
-     //           Intent i=new Intent(Home.this,event.class);
-     //           startActivity(i);
-     //       }
-     //   });
+        b7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(Home.this,Complaint_1.class);
+                startActivity(i);
+            }
+        });
+
 
 
 
