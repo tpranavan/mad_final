@@ -9,9 +9,9 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 public class DBHelper extends SQLiteOpenHelper {
-    public static final String DATABASE_NAME = "vehicle_booking.db";
-    public static final String TABLE_NAME = "Vehicle_Reservation";
-    public static final String COL_1 = "Vehicle_type";
+    public static final String DATABASE_NAME = "room_booking.db";
+    public static final String TABLE_NAME = "Room_Reservation";
+    public static final String COL_1 = "Room_type";
     public static final String COL_2 = "Name";
     public static final String COL_3 = "Phone_no";
     public static final String COL_4 = "Email";
@@ -29,7 +29,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-        sqLiteDatabase.execSQL("CREATE TABLE " + TABLE_NAME + "(Vehicle_type text,Name text, Phone_no text primary key, Email text,Check_in text, Check_out text, No_of_vehicle integer, Total_cost integer)");
+        sqLiteDatabase.execSQL("CREATE TABLE " + TABLE_NAME + "(Room_type text,Name text, Phone_no text primary key, Email text,Check_in text, Check_out text, No_of_rooms integer, Total_cost integer)");
 
 
     }
@@ -40,17 +40,17 @@ public class DBHelper extends SQLiteOpenHelper {
         onCreate(sqLiteDatabase);
     }
 
-    public boolean insertData(String Vehicle_type, String Name, String Phone_no, String Email, String Check_in, String Check_out, int No_of_vehicle, int Total_cost) {
+    public boolean insertData(String Room_type, String Name, String Phone_no, String Email, String Check_in, String Check_out, int No_of_rooms, int Total_cost) {
 
         SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
-        contentValues.put(COL_1, Vehicle_type);
+        contentValues.put(COL_1, Room_type);
         contentValues.put(COL_2, Name);
         contentValues.put(COL_3, Phone_no);
         contentValues.put(COL_4, Email);
         contentValues.put(COL_5, Check_in);
         contentValues.put(COL_6, Check_out);
-        contentValues.put(COL_7, No_of_vehicle);
+        contentValues.put(COL_7, No_of_rooms);
         contentValues.put(COL_8, Total_cost);
 
         long result = sqLiteDatabase.insert(TABLE_NAME, null, contentValues);
@@ -65,16 +65,16 @@ public class DBHelper extends SQLiteOpenHelper {
         Cursor res=sqLiteDatabase.rawQuery("select * from "+TABLE_NAME,null);
         return res;
     }
-    public  boolean updateDetail(String Vehicle_type, String Name, String Phone_no, String Email, String Check_in, String Check_out, String No_of_vehicle, String Total_cost){
+    public  boolean updateDetail(String Room_type, String Name, String Phone_no, String Email, String Check_in, String Check_out, String No_of_rooms, String Total_cost){
         SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
         ContentValues contentValues= new ContentValues();
-        contentValues.put(COL_1, Vehicle_type);
+        contentValues.put(COL_1, Room_type);
         contentValues.put(COL_2, Name);
         contentValues.put(COL_3, Phone_no);
         contentValues.put(COL_4, Email);
         contentValues.put(COL_5, Check_in);
         contentValues.put(COL_6, Check_out);
-        contentValues.put(COL_7, No_of_vehicle);
+        contentValues.put(COL_7, No_of_rooms);
         contentValues.put(COL_8, Total_cost);
 
         sqLiteDatabase.update(TABLE_NAME,contentValues,"Phone_no = ?",new String[] {Phone_no});
