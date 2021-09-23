@@ -26,13 +26,13 @@
 
     <TextView
         android:id="@+id/txtRate"
-        android:layout_width="358dp"
+        android:layout_width="373dp"
         android:layout_height="41dp"
         android:layout_marginTop="10dp"
         android:gravity="center_horizontal"
         android:text="Rate"
         android:textColor="#009688"
-        android:textSize="25sp" />
+        android:textSize="26sp" />
 
     <TextView
         android:id="@+id/tvFeedback"
