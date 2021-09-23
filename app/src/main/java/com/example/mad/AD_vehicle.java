@@ -151,11 +151,9 @@ public class AD_vehicle extends AppCompatActivity {
 
                         }else
                             Toast.makeText(AD_vehicle.this,"Data notInserted",Toast.LENGTH_LONG).show();
-
                     }
                 }
         );
-
     }
     public void viewAll(){
         view.setOnClickListener(

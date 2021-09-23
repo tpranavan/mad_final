@@ -90,10 +90,5 @@ public class MainActivity extends AppCompatActivity {
         e1.setText("");
         e2.setText("");
         e3.setText("");
-
-
     }
-
-
-
 }
