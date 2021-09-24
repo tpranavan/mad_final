@@ -56,10 +56,10 @@ public class Admin_booking extends AppCompatActivity {
         );
     }
 
-    private void showMessage(String rooms_details, String toString) {
+    private void showMessage(String title, String toString) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setCancelable(true);
-        builder.setTitle(rooms_details);
+        builder.setTitle(title);
         builder.setMessage(toString);
         builder.show();
     }
