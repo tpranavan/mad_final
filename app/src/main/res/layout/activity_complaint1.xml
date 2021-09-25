@@ -46,11 +46,11 @@
         app:srcCompat="@drawable/click" />
 
     <TextView
-        android:id="@+id/email"
+        android:id="@+id/il"
         android:layout_width="350dp"
         android:layout_height="48dp"
         android:layout_marginBottom="376dp"
-        android:text="@string/email"
+        android:text="@string/ail"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
