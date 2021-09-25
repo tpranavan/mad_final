@@ -28,7 +28,7 @@ public class Home extends AppCompatActivity {
         b4=(Button)findViewById(R.id.nb);
         b5=(Button)findViewById(R.id.nb2);
         b6=(Button)findViewById(R.id.nb3);
-        b7=(Button)findViewById(R.id.nb4);
+
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -77,13 +77,7 @@ public class Home extends AppCompatActivity {
             }
         });
 
-        b7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i=new Intent(Home.this,Complaint_1.class);
-                startActivity(i);
-            }
-        });
+
 
 
 
