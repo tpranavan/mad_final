@@ -27,7 +27,8 @@ public class Home extends AppCompatActivity {
         b3=(Button)findViewById(R.id.log);
         b4=(Button)findViewById(R.id.nb);
         b5=(Button)findViewById(R.id.nb2);
-        b6=(Button)findViewById(R.id.nb3);
+
+
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -76,6 +77,7 @@ public class Home extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
 
 
 
