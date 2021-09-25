@@ -321,18 +321,14 @@
                     android:background="@color/white"
                     android:gravity="center">
 
-                    <Button
+                    <TextView
                         android:id="@+id/nb4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="#FFFFFF"
-                        android:text="@string/Complaint"
-                        android:textColor="@color/teal_700"
-                        android:textSize="20dp"
-                        android:textStyle="bold"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent" />
+                        android:layout_width="143dp"
+                        android:layout_height="47dp"
+                        android:text="COMPLAINT"
+                        android:textSize="20sp"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="134dp" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
