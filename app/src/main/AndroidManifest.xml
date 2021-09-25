@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Complaint_2"
+            android:exported="true" />
+        <activity
             android:name=".samplepush"
             android:exported="true" />
         <activity
