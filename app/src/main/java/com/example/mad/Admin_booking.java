@@ -49,7 +49,7 @@ public class Admin_booking extends AppCompatActivity {
 
 
                         }
-                        showMessage("Booking details", buffer.toString());
+                        showMessage("Booking Details Report", buffer.toString());
 
                     }
                 }
