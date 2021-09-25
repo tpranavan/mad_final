@@ -19,7 +19,7 @@ public class feedback extends AppCompatActivity {
         tvFeedback = findViewById(R.id.tvFeedback);
         rbStars = findViewById(R.id.rbStars);
 
-
+        //calculate star rate
         rbStars.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
 
             public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
