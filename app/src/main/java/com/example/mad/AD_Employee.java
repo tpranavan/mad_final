@@ -146,7 +146,7 @@ public class AD_Employee extends AppCompatActivity {
                 }
         );
     }
-
+    //create code
     public void AddData() {
 
         b1.setOnClickListener(
@@ -174,7 +174,7 @@ public class AD_Employee extends AppCompatActivity {
         });
 
     }
-
+    //view data code
     public void ViewDetail() {
         b2.setOnClickListener(
                 new View.OnClickListener() {
