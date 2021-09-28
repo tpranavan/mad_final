@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class our_rooms extends AppCompatActivity {
+public class our_vehicle extends AppCompatActivity {
     Button b1,b2;
 
     @Override
@@ -25,7 +25,7 @@ public class our_rooms extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent log =new Intent(our_rooms.this,Home.class);
+                Intent log =new Intent(our_vehicle.this,Home.class);
                 Toast.makeText(getApplicationContext(),"LOGOUT",Toast.LENGTH_SHORT).show();
                 startActivity(log);
             }
@@ -33,7 +33,7 @@ public class our_rooms extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent bu=new Intent(our_rooms.this,booking.class);
+                Intent bu=new Intent(our_vehicle.this,booking.class);
                 startActivity(bu);
             }
         });

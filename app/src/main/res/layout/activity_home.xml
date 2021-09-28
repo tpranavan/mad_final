@@ -61,6 +61,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/white"
+                    android:clickable="false"
+                    android:focusable="false"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -109,6 +111,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/white"
+                    android:clickable="false"
+                    android:focusable="false"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -215,6 +219,8 @@
                     android:layout_width="164dp"
                     android:layout_height="186dp"
                     android:background="@color/white"
+                    android:clickable="false"
+                    android:focusable="false"
                     android:gravity="center">
 
                     <ImageView
@@ -273,6 +279,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/white"
+                    android:focusable="false"
                     android:gravity="center">
 
                     <ImageView
@@ -319,8 +326,8 @@
                     android:layout_width="164dp"
                     android:layout_height="186dp"
                     android:background="@color/white"
+                    android:focusable="false"
                     android:gravity="center">
-
 
 
                     <Button

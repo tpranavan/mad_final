@@ -31,7 +31,7 @@
             android:exported="true" />
         <activity android:name=".Welcome" />
         <activity android:name=".pacakage" />
-        <activity android:name=".our_rooms" />
+        <activity android:name=".our_vehicle" />
         <activity android:name=".booking" />
         <activity android:name=".Admin_booking" />
         <activity android:name=".AD_vehicle" />

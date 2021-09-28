@@ -60,7 +60,7 @@ public class booking extends AppCompatActivity {
         name = findViewById(R.id.personName);
         phone = findViewById(R.id.phoneNo);
         mail = findViewById(R.id.emailId);
-        no_room = findViewById(R.id.roomNumber);
+        no_room = findViewById(R.id.carno);
         tvDisplayDate = findViewById(R.id.check_in);
         tvDisplayDate2 = findViewById(R.id.check_out);
         btnChangeDate = findViewById(R.id.button1);

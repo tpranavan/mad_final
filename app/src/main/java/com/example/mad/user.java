@@ -6,11 +6,6 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.Toast;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
 
 public class user extends AppCompatActivity implements View.OnClickListener {
     public CardView card1;
@@ -31,7 +26,7 @@ public class user extends AppCompatActivity implements View.OnClickListener {
 
         switch (v.getId()) {
             case R.id.c1:
-                i = new Intent(this, our_rooms.class);
+                i = new Intent(this, our_vehicle.class);
                 startActivity(i);
 
 

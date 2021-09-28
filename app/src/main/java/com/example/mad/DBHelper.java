@@ -9,8 +9,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 public class DBHelper extends SQLiteOpenHelper {
-    public static final String DATABASE_NAME = "room_booking.db";
-    public static final String TABLE_NAME = "Room_Reservation";
+    public static final String DATABASE_NAME = "car_booking.db";
+    public static final String TABLE_NAME = "vb";
     public static final String COL_1 = "Room_type";
     public static final String COL_2 = "Name";
     public static final String COL_3 = "Phone_no";
