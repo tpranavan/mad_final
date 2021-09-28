@@ -94,6 +94,8 @@
         android:background="@color/navbar2"
         android:text="DELETE"
         android:textColor="@android:color/white"
+        app:layout_constraintEnd_toStartOf="@+id/btn5"
+        app:layout_constraintHorizontal_bias="0.133"
         app:layout_constraintStart_toEndOf="@+id/btn3"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
@@ -101,8 +103,8 @@
         android:id="@+id/btn5"
         android:layout_width="70dp"
         android:layout_height="40dp"
-        android:layout_marginStart="84dp"
-        android:layout_marginLeft="84dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
         android:layout_marginTop="12dp"
         android:background="@color/navbar2"
         android:text="SEARCH"
