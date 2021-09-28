@@ -29,7 +29,7 @@ public class booking extends AppCompatActivity {
     DBHelper mydB;
     private TextView tvDisplayDate, tvDisplayDate2, type, totcost;
     private Button btnChangeDate, btnChangeDate2, cButton, btnView, btnUpdate, btnDelete, btnlogout, btncost;
-    EditText name, phone, mail, no_room;
+    EditText name, phone, mail, no_car;
     private int year;
     private int month;
     private int day;
@@ -60,7 +60,7 @@ public class booking extends AppCompatActivity {
         name = findViewById(R.id.personName);
         phone = findViewById(R.id.phoneNo);
         mail = findViewById(R.id.emailId);
-        no_room = findViewById(R.id.carno);
+        no_car = findViewById(R.id.carno);
         tvDisplayDate = findViewById(R.id.check_in);
         tvDisplayDate2 = findViewById(R.id.check_out);
         btnChangeDate = findViewById(R.id.button1);
@@ -89,8 +89,8 @@ public class booking extends AppCompatActivity {
         btncost.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (no_room.getText().toString().length() == 0) {
-                    no_room.setText("0");
+                if (no_car.getText().toString().length() == 0) {
+                    no_car.setText("0");
                 }
                 totcost.setText(String.valueOf(calculate()));
 
@@ -158,7 +158,7 @@ public class booking extends AppCompatActivity {
                 @Override
                 public void onItemSelected(AdapterView<?> arg0, View arg1, int position, long id) {
                     String s2 = String.valueOf(No_of_rooms[position]);
-                    no_room.setText(s2);
+                    no_car.setText(s2);
                 }
 
                 @Override
@@ -233,7 +233,7 @@ public class booking extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        boolean isUpdate = mydB.updateDetail(type.getText().toString(), name.getText().toString(), phone.getText().toString(), mail.getText().toString(), tvDisplayDate.getText().toString(), tvDisplayDate2.getText().toString(), no_room.getText().toString(), totcost.getText().toString());
+                        boolean isUpdate = mydB.updateDetail(type.getText().toString(), name.getText().toString(), phone.getText().toString(), mail.getText().toString(), tvDisplayDate.getText().toString(), tvDisplayDate2.getText().toString(), no_car.getText().toString(), totcost.getText().toString());
                         if (isUpdate == true && awesomeValidation.validate()) {
                             Toast.makeText( booking.this, "Booking Details Updated", Toast.LENGTH_LONG ).show();
                             clearControls();
@@ -253,7 +253,7 @@ public class booking extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
 
-                        boolean isInserted = mydB.insertData(type.getText().toString(), name.getText().toString(), phone.getText().toString(), mail.getText().toString(), tvDisplayDate.getText().toString(), tvDisplayDate2.getText().toString(), Integer.parseInt(no_room.getText().toString()), Integer.parseInt(totcost.getText().toString()));
+                        boolean isInserted = mydB.insertData(type.getText().toString(), name.getText().toString(), phone.getText().toString(), mail.getText().toString(), tvDisplayDate.getText().toString(), tvDisplayDate2.getText().toString(), Integer.parseInt(no_car.getText().toString()), Integer.parseInt(totcost.getText().toString()));
                         if (isInserted == true && awesomeValidation.validate())
                             Toast.makeText( booking.this, "Booking Confirmed", Toast.LENGTH_LONG ).show();
 
@@ -370,7 +370,7 @@ public class booking extends AppCompatActivity {
         int rcost1 = 10000;
         int rcost2 =  12000;
 
-        int rnum = Integer.parseInt(no_room.getText().toString());
+        int rnum = Integer.parseInt(no_car.getText().toString());
 
 
         if(type.getText().toString().equalsIgnoreCase("Deluxe")){
@@ -390,7 +390,7 @@ public class booking extends AppCompatActivity {
         name.setText("");
         phone.setText("");
         mail.setText("");
-        no_room.setText("");
+        no_car.setText("");
         tvDisplayDate.setText("");
         tvDisplayDate2.setText("");
         totcost.setText("");
