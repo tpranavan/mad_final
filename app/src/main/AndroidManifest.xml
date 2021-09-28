@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:label="@string/app_name"
+        android:label="Wheels Up"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -14,9 +14,7 @@
         <activity
             android:name=".Complaint_2"
             android:exported="true" />
-        <activity
-            android:name=".samplepush"
-            android:exported="true" />
+
         <activity
             android:name=".event"
             android:exported="true" />
