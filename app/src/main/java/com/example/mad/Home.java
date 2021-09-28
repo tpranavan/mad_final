@@ -27,7 +27,7 @@ public class Home extends AppCompatActivity {
         b4=(Button)findViewById(R.id.nb);
         b5=(Button)findViewById(R.id.nb2);
         b6=(Button)findViewById(R.id.nb3);
-        b7=(Button)findViewById(R.id.nb4);
+
 
 
 
@@ -41,7 +41,7 @@ public class Home extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(Home.this,pacakage.class);
+                Intent i=new Intent(Home.this,Complaint_2.class);
                 startActivity(i);
             }
         });
@@ -79,13 +79,7 @@ public class Home extends AppCompatActivity {
             }
         });
 
-        b7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i =new Intent(Home.this,Complaint_2.class);
-                startActivity(i);
-            }
-        });
+
 
 
 
