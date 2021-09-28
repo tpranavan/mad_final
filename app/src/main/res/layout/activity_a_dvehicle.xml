@@ -138,31 +138,31 @@
 
         <Button
             android:id="@+id/fb1"
-            android:layout_width="112dp"
-            android:layout_height="31dp"
-            android:layout_marginStart="156dp"
-            android:layout_marginLeft="156dp"
-            android:layout_marginTop="12dp"
+            android:layout_width="88dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="76dp"
             android:background="@color/colorPrimaryDark"
             android:text="ADD"
             android:textColor="@android:color/background_light"
             android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/fac" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <Button
             android:id="@+id/search"
-            android:layout_width="82dp"
-            android:layout_height="36dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="12dp"
+            android:layout_width="88dp"
+            android:layout_height="39dp"
+            android:layout_marginBottom="20dp"
             android:background="@color/colorPrimaryDark"
             android:text="SEARCH"
             android:textColor="@android:color/background_light"
             android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@+id/button7"
-            app:layout_constraintTop_toBottomOf="@+id/fb1" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button4"
+            app:layout_constraintHorizontal_bias="0.514"
+            app:layout_constraintStart_toEndOf="@+id/button7" />
 
         <Button
             android:id="@+id/button7"
@@ -170,41 +170,41 @@
             android:layout_height="39dp"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="52dp"
+            android:layout_marginBottom="20dp"
             android:background="@color/navbar2"
             android:text="View All"
             android:textColor="@android:color/background_light"
             android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="88dp"
-            android:layout_height="36dp"
-            android:layout_marginStart="12dp"
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="12dp"
+            android:layout_height="39dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="20dp"
             android:background="@color/navbar2"
             android:text="Update"
             android:textColor="@android:color/background_light"
             android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@+id/search"
-            app:layout_constraintTop_toBottomOf="@+id/fb1" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fb2" />
 
         <Button
             android:id="@+id/fb2"
-            android:layout_width="87dp"
-            android:layout_height="36dp"
-            android:layout_marginStart="12dp"
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="56dp"
+            android:layout_width="88dp"
+            android:layout_height="39dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="20dp"
             android:background="@color/navbar2"
             android:text="Delete"
             android:textColor="@android:color/background_light"
             android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@+id/button4"
-            app:layout_constraintTop_toBottomOf="@+id/fac" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
 
         <Button
             android:id="@+id/log"
@@ -221,17 +221,16 @@
 
         <TextView
             android:id="@+id/textView23"
-            android:layout_width="230dp"
+            android:layout_width="wrap_content"
             android:layout_height="49dp"
-            android:layout_marginTop="52dp"
+            android:layout_marginTop="116dp"
             android:text="Vehicle Details"
             android:textColor="@android:color/background_dark"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.364"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/log" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Spinner
             android:id="@+id/spinner1"
@@ -239,7 +238,7 @@
             android:layout_height="50dp"
             android:layout_marginStart="5dp"
             android:layout_marginLeft="5dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="24dp"
             app:layout_constraintStart_toEndOf="@+id/type"
             app:layout_constraintTop_toBottomOf="@+id/id" />
 
